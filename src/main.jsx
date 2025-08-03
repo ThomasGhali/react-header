@@ -1,3 +1,5 @@
+import logo from './assets/react-logo.png'
+import './index.css'
 import { createRoot } from 'react-dom/client'
 
 const root = createRoot(document.getElementById("root"));
@@ -5,7 +7,7 @@ const root = createRoot(document.getElementById("root"));
 function Header() {
   return (
       <header className="header">
-          <img src="react-logo.png" className="nav-logo" alt="React logo" />
+          <img src={logo} className="nav-logo" alt="React logo" />
           <nav>
               <ul className="nav-list">
                   <li className="nav-list-item">Pricing</li>
@@ -50,3 +52,5 @@ function Page() {
 root.render(
   <Page />
 )
+
+console.log(logo)

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+
+body, html {
+  width: 100%;
+  background-color: #011d36;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-logo {
+  width: 100px;
+  height: auto;
+}
