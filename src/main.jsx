@@ -6,13 +6,13 @@ const root = createRoot(document.getElementById("root"));
 
 function Header() {
   return (
-      <header className="header">
-          <img src={logo} className="nav-logo" alt="React logo" />
+      <header className="page-header">
+          <img src={logo} className="page-header__logo" alt="React logo" />
           <nav>
               <ul className="nav-list">
-                  <li className="nav-list-item">Pricing</li>
-                  <li className="nav-list-item">About</li>
-                  <li className="nav-list-item">Contact</li>
+                  <li className="nav-list__item">Pricing</li>
+                  <li className="nav-list__item">About</li>
+                  <li className="nav-list__item">Contact</li>
               </ul>
           </nav>
       </header>
